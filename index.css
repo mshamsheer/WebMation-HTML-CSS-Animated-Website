@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    color: #1a1a1a;
+    /* CSS */
+   
+
+}
+.main{
+    height: 800px;
+   
+}
+
+.starting{
+    opacity: 0; /* Initially set the opacity to 0 */
+     animation: fadeIn 1.5s ease-in-out forwards 1.5s; 
+} 
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+ 
+
+.container{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-top: 30px;
+}
+.container-items{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    margin-left: 35%;
+    font-size: 1.5rem;
+    
+}
+.container-items a{
+    text-decoration: none;
+    list-style: none;
+    color: #1a1a1a;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/* img{
+    height: 100px;
+    width: 100px;
+} */
+
+.img-logo{
+    width: 10%;
+    height: 10%;
+    vertical-align: middle;
+    object-fit: contain;
+    margin-left: 4rem;
+}
+.starting {
+    display: flex;
+    align-items: center;
+    height: 579px;
+    /* background-color: aqua; */
+}
+
+.text-content {
+    width: 30%;
+    /* font-size: 1.5rem; */
+    /* font-size: 38px; */
+    margin-right: 10px; /* Add some space between text and image */
+    margin-left: 4.5rem;
+    margin-top: 12rem;
+    color: #1a1a1a;
+}
+
+.h1 {
+    margin-top: 0; /* Remove top margin for h1 */
+    font-size: 58px;
+
+    
+   
+   
+}
+
+.p1 {
+    /* Add margin to separate h1 and p */
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.img-container {
+    width: 50%;
+}
+
+.img-container img {
+    max-width: 100%;
+    margin-left: 30%;
+    border-radius: 50%;
+    margin-top: 12rem;
+    
+}
+.img-container:hover{
+    animation-name: rotate;
+    animation-duration: 0.7s;
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+.main2nd{
+    background-color: #ebeadf;
+   
+    height: 700px;
+}
+                    /* FOR ANIMATION */
+
+
+.main2nd {
+   
+    opacity: 0; 
+    transition: opacity 1s ease-in-out 1s;
+}
+        .main2nd.show-content { 
+        opacity: 1; 
+} 
+
+                /* 3rd animation */
+ .starting-3 { 
+   
+    opacity: 0;  
+    transition: opacity 1s ease-in-out 1s;  
+} 
+
+    .starting-3.show-content { 
+    opacity: 1; 
+} 
+
+            /* 4th animation */
+ .container-4{ 
+   
+     opacity: 0; 
+     transition: opacity 1s ease-in-out 1s;  
+} 
+
+    .container-4.show-content { 
+     opacity: 1; 
+} 
+
+        /* 5th animation */
+
+.about-us{ 
+   
+    opacity: 0; 
+    transition: opacity 1s ease-in-out 1s;  
+} 
+
+.about-us.show-content { 
+    opacity: 1; 
+} 
+
+/* 6th animation */
+
+.fotter{ 
+   
+    opacity: 0; 
+    transition: opacity 1s ease-in-out 1s;  
+} 
+
+.fotter.show-content { 
+    opacity: 1; 
+} 
+
+/* Common class for all animated elements */
+
+
+
+
+.main2nd{
+    display: flex;
+   
+    align-items: center;
+    
+}
+.img2-container{
+    width: 50%;
+}
+
+.img2-container img {
+    max-width: 100%;
+    margin-left: 20%;
+    border-radius: 50%;
+   
+    height: 500px;
+    width: 500px;
+    
+}
+
+
+/* text */
+
+.content-txt {
+    width: 35%;
+    /* font-size: 1.5rem; */
+    /* font-size: 38px; */
+    margin-right: 10px; /* Add some space between text and image */
+    margin-left: 4.5rem;
+    margin-top: -5rem;
+    color: #1a1a1a;
+}
+
+.heading-2 {
+    margin-top: 0; /* Remove top margin for h1 */
+    font-size: 40px;
+   
+   
+}
+
+.para-2 {
+    font-size: 1rem;
+    transition-property: font-size;
+    transition-duration: 4s;
+  }
+  
+  .para-2:hover {
+    font-size: 1.5rem;
+  }
+
+.para-2 {
+    /* Add margin to separate h1 and p */
+    margin-top: 1rem;
+    /* font-size: 1.5rem; */
+    margin-top: 3rem;
+}
+
+                            /* 3rd container */
+
+.starting-3 {
+    display: flex;
+    align-items: center;
+    height:800px;
+    /* background-color: aqua; */
+}
+
+
+.text-content-3 {
+    width: 30%;
+    /* font-size: 1.5rem; */
+    /* font-size: 38px; */
+    /* margin-right: 10px; Add some space between text and image */
+    margin-left: 12rem;
+    margin-top: 1rem;
+    color: #1a1a1a;
+}
+.text-content-3:hover{
+    animation-name: rotate;
+    animation-duration: 0.7s;
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+.h3 {
+    margin-top: 0; /* Remove top margin for h1 */
+    font-size: 35px;
+    margin-left: -4rem;
+}
+
+.list-item {
+    /* Add margin to separate h1 and p */
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.img3-container {
+    width: 50%;
+}
+
+.img3-container img {
+    max-width: 100%;
+    margin-left: 15%;
+    border-radius: 50%;
+    margin-top: -5rem;
+    height: 500px;
+    width: 500px;
+   
+}
+
+/* 4th container */
+.container-4{
+    background-color: #ebeadf;
+   
+    height: 700px;
+}
+.container-4{
+    display: flex;
+   
+    align-items: center;
+}
+
+.img4-container{
+    width: 50%;
+}
+
+.img4-container img {
+    max-width: 100%;
+    margin-left: 20%;
+    border-radius: 50%;
+   
+    height: 500px;
+    width: 500px;
+}
+
+.content-txt-4 {
+    width: 30%;
+    /* font-size: 1.5rem; */
+    /* font-size: 38px; */
+    /* margin-right: 10px; Add some space between text and image */
+    margin-left: 8rem;
+    margin-top: -12rem;
+    color: #1a1a1a;
+}
+
+.list-item-4{
+    /* Add margin to separate h1 and p */
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.heading-4 {
+    margin-top: 0; /* Remove top margin for h1 */
+    font-size: 30px;
+    margin-left: -4rem;
+}
+.about-us{
+    height: 350px;
+   
+    
+}
+.about-items{
+    text-align: center;
+    /* margin-top: 10rem; */
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 10rem; */
+   
+}
+.about-para{
+    height: 150px;
+    width: 670px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    align-items: center;
+    margin-left: 21rem;
+    font-size: 1.25rem;
+    
+}
+
+.fotter{
+    background-color: #ebeadf;
+    /* width: 100px; */
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.footer-items{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.topic{
+    width: 200px;
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    float: right;
+   margin-left: 51rem;
+   
+}
+.icon i {
+    width: 80px;
+    float: right;
+    align-items: right;
+    align-items: center;
+    font-size: 1.80rem;
+  }
+
+  i:hover{
+    animation-name: rotate;
+    animation-duration: 0.7s;
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+ 
